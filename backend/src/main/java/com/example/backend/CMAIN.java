@@ -88,6 +88,17 @@ public class CMAIN extends CMAIN_Abstract_Superclass implements IText, IConstant
         }
         }
 
+        m.f(F_K + g + M + t + TUJ + p + SPT);
+        method_nix(m);
+        for (c1 = 0; c1 < t; c1++) {
+            m.l(c1);
+            for (c2 = c1 * p; c2 < c1 * p + p; c2++) {
+                var s = printSuffixShort(g);
+                var x = s;
+                m.f(S + x + LEER + (c2 + 1) + eingabe_Input);
+            }
+        }
+
         method_nix(m);
         m.f(RUNDE_1);
         for (c3 = 0; c3 < t; c3++) {
